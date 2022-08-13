@@ -48,19 +48,11 @@ void solve()
 
 signed main()
 {
-        #ifndef ONLINE_JUDGE
-         freopen("debug.txt", "w", stderr);
-         freopen("input.txt","r",stdin);
-         freopen("output.txt","w",stdout);
-        #endif
     int t=1;
-    //cin>>t;
     int i=1;
     while(t--)
     {
-        //cout<<"Case #"<<i<<": ";
         solve();
-        //i++;
     }
     return 0;
 }
